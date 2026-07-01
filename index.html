@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<title>Moonlight Ayışığı Pansiyon | Çanakkale · Gönen · Avşa</title>
+<meta name="description" content="Moonlight Ayışığı Pansiyonları — Çanakkale, Gönen ve Avşa'da huzurlu bir konaklama. Şubelerimizi keşfedin, bizi arayın veya WhatsApp'tan yazın.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+  <header class="site-header">
+    <div class="wrap">
+      <div class="logo">Moonlight<span class="dot">·</span>Ayışığı</div>
+      <div class="nav-wrap">
+        <nav>
+          <a href="index.html" data-en="Home">Anasayfa</a>
+          <a href="canakkale.html">Çanakkale</a>
+          <a href="gonen.html">Gönen</a>
+          <a href="avsa.html">Avşa</a>
+          <a href="iletisim.html" class="nav-contact" data-en="Contact">İletişim</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Dil seçimi / Language">
+          <button type="button" class="lang-btn" data-lang="tr" aria-pressed="true">TR</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="menu-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false">
+          <svg class="icon-burger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="5" y1="5" x2="19" y2="19"/><line x1="5" y1="19" x2="19" y2="5"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap hero-inner">
+    <h1>Moonlight Ayışığı<br><span class="i18n" data-en="Guesthouse | Apart">Pansiyon | Apart</span></h1>
+  </div>
+
+  <!-- İmza görseli: ay ışığının denize yansıması -->
+  <svg class="moon-scene" viewBox="0 0 1200 240" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ay ışığının denize yansıması">
+    <defs>
+      <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#E8CE9B" stop-opacity="0.9"/>
+        <stop offset="100%" stop-color="#E8CE9B" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="seaFade" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0E1A2C" stop-opacity="0"/>
+        <stop offset="100%" stop-color="#0E1A2C" stop-opacity="1"/>
+      </linearGradient>
+    </defs>
+    <circle cx="600" cy="40" r="100" fill="url(#moonGlow)"/>
+    <circle cx="600" cy="40" r="22" fill="#F4E6C2"/>
+    <line x1="588" y1="95" x2="612" y2="95" stroke="#F4E6C2" stroke-width="3" opacity="0.85"/>
+    <line x1="578" y1="112" x2="622" y2="112" stroke="#F4E6C2" stroke-width="3" opacity="0.6"/>
+    <line x1="568" y1="130" x2="632" y2="130" stroke="#F4E6C2" stroke-width="3" opacity="0.4"/>
+    <line x1="556" y1="150" x2="644" y2="150" stroke="#F4E6C2" stroke-width="3" opacity="0.25"/>
+    <circle cx="120" cy="30" r="1.6" fill="#F4E6C2" opacity="0.7"/>
+    <circle cx="220" cy="55" r="1.2" fill="#F4E6C2" opacity="0.5"/>
+    <circle cx="980" cy="40" r="1.6" fill="#F4E6C2" opacity="0.7"/>
+    <circle cx="1080" cy="70" r="1.2" fill="#F4E6C2" opacity="0.5"/>
+    <circle cx="320" cy="20" r="1" fill="#F4E6C2" opacity="0.6"/>
+    <circle cx="860" cy="18" r="1" fill="#F4E6C2" opacity="0.6"/>
+    <path d="M0,170 Q150,160 300,172 T600,168 T900,174 T1200,166 V240 H0 Z" fill="#152538" opacity="0.9"/>
+    <path d="M0,190 Q150,182 300,192 T600,188 T900,193 T1200,186 V240 H0 Z" fill="#0E1A2C"/>
+    <rect x="0" y="0" width="1200" height="240" fill="url(#seaFade)"/>
+  </svg>
+</div>
+
+<section class="intro wrap reveal">
+  <p data-en="In three different cities, with three different views, we welcome you with the same warmth, the same standard of clean rooms, and the same hospitality that says good morning at your door.">Üç farklı şehirde, üç farklı manzarada; aynı sıcaklıkla, aynı temiz oda anlayışıyla ve aynı kapı önünde günaydın diyen ev sahipliğiyle ağırlıyoruz.</p>
+</section>
+
+<section class="branches wrap" id="subeler">
+  <div class="branches-head reveal">
+    <span class="eyebrow" data-en="Our Branches">Şubelerimiz</span>
+  </div>
+
+  <div class="branches-grid">
+
+    <!-- ÇANAKKALE -->
+    <article class="branch-card reveal">
+      <div class="branch-photos">
+        <div class="photo-placeholder">
+          <img src="images/canakkale1.jpg">
+        </div>
+        <div class="photo-placeholder">
+          <img src="images/canakkale2.jpg">
+        </div>
+      </div>
+      <div class="branch-body">
+        <span class="place">Çanakkale</span>
+        <h3>Moonlight Ayışığı Çanakkale</h3>
+        <p data-en="Right on the shore of the Strait, a quiet corner where the ferry lights reflect on the water in the evenings.">Boğaz'ın hemen kıyısında, akşamları vapur ışıklarının suya yansıdığı sakin bir köşe.</p>
+        <a class="btn" href="canakkale.html"><span class="i18n" data-en="Learn More">Detaylı Bilgi</span> <span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- GÖNEN -->
+    <article class="branch-card reveal">
+      <div class="branch-photos">
+        <div class="photo-placeholder">
+          <img src="images/gonen1.jpg">
+        </div>
+        <div class="photo-placeholder">
+          <img src="images/gonen2.jpg">
+        </div>
+      </div>
+      <div class="branch-body">
+        <span class="place">Gönen</span>
+        <h3>Moonlight Ayışığı Gönen</h3>
+        <p data-en="Close to thermal springs and away from city noise, a stop devoted to rest.">Termal kaynaklara yakın, şehrin gürültüsünden uzak, dinlenmeye adanmış bir durak.</p>
+        <a class="btn" href="gonen.html"><span class="i18n" data-en="Learn More">Detaylı Bilgi</span> <span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- AVŞA -->
+    <article class="branch-card reveal">
+      <div class="branch-photos">
+        <div class="photo-placeholder">
+          <img src="images/avsa1.jpg">
+        </div>
+        <div class="photo-placeholder">
+          <img src="images/avsa2.jpg">
+        </div>
+      </div>
+      <div class="branch-body">
+        <span class="place" data-en="Avşa Island">Avşa Adası</span>
+        <h3>Moonlight Ayışığı Avşa</h3>
+        <p data-en="In the calm of the island, just steps from the sea — a special retreat for summer evenings.">Adanın sakinliğinde, denize birkaç adım, yaz akşamlarına özel bir mola yeri.</p>
+        <a class="btn" href="avsa.html"><span class="i18n" data-en="Learn More">Detaylı Bilgi</span> <span class="arrow">→</span></a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="logo">Moonlight<span class="dot">·</span>Ayışığı</div>
+    <p>Çanakkale · Gönen · Avşa</p>
+    <p>&copy; 2026 Moonlight Ayışığı <span class="i18n" data-en="Guesthouses. All rights reserved.">Pansiyonları. Tüm hakları saklıdır.</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
